@@ -5,7 +5,7 @@ Overall, organizing files is a good practice that can help you stay organized an
 
 ## The Python Script
 
-The script we are discussing is written in Python and uses the `os`, `posixpath`, `tarfile`, `datetime` and `boto3` libraries. This is a Python script that organizes files based on their extension and copies them to a new directory. Here's how it works:
+The script we are discussing is written in Python and uses the `os`, `posixpath`, `shutil`, and `hashlib` libraries. This is a Python script that organizes files based on their extension and copies them to a new directory. Here's how it works:
 
 1. The script first walks through the source directory and collects file paths based on their extension.
 2. It then creates a new folder with the extension name in the destination directory.
